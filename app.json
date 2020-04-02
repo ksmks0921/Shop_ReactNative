@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Shopping Runway",
+    "slug": "shopping_runway",
+    "privacy": "public",
+    "sdkVersion": "33.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.3",
+    "orientation": "portrait",
+    "icon": "./assets/logo.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "assets/*"
+    ],
+    "ios": {
+      "buildNumber":"4",
+      "supportsTablet": true,
+      "bundleIdentifier": "com.messoft.appshoppingrunway"
+
+    },
+    "android": {
+      "versionCode": 4,
+      "package": "com.messoft.shoppingrunway"
+    }
+  }
+}
